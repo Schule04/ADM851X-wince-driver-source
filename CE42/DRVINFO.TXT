@@ -1,0 +1,17 @@
+1. If you want to build WINCE42 driver for ADM851X, please put the respective
+   directoy (e.g. IFXADM8511 for ADM8511 LAN chip) on the WINCE42 direcoty
+   \WINCE420\PUBLIC\COMMON\OAK\DRIVERS. 
+
+2. Select "Open Build Release Directory" on "Build" option under WINCE42
+   Builder Platform and change to the directory that the driver is located
+   at. And then you can run "build" or "build -cf"(rebuild all drivers)
+   to build up your drivers in DLL format which will locate at the platform
+   (X86/Samsung SMDK2410/Intel DBPXA250) directoy in the WINCE42 target
+   directory \WINCE420\PUBLIC\COMMON\OAK\TARGET.
+
+3. There are two directories "LANUSB" and "LANNDS" in each ADM851X WINCE42
+   driver directory (e.g. IFXADM8511). The files in "LANNDS" are the same
+   for all ADM851X chips. But the file "LANUSB.C" in "LANUSB" is different
+   for each ADM851X. The main difference is the definition for "PRODUCT_ID".
+   The "PRODUCT_ID" for ADM8511, ADM8513 and ADM8515 are 8511, 8513 and 8515
+   respectively. 

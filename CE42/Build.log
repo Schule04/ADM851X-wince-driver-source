@@ -1,0 +1,107 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\wince420\public\common\oak\drivers\admtek directory tree for files to compile.
+Building generated files in c:\wince420\public\common\oak\drivers\admtek\lanusb ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+	clarm -EP -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_   -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -FIC:\WINCE420\public\common\oak\inc\deffile.inc -TcLANUSB.def > obj\ARMV4I\retail\LANUSB.def
+Microsoft (R) C/C++ Optimizing Compiler Version 12.20.9615 for ARM
+Copyright (C) Microsoft Corp 1984-2002. All rights reserved.
+
+LANUSB.def
+	clarm -EP -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_   -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -FIC:\WINCE420\public\common\oak\inc\deffile.inc -TcLANUSB.def > C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANUSB.def
+Microsoft (R) C/C++ Optimizing Compiler Version 12.20.9615 for ARM
+Copyright (C) Microsoft Corp 1984-2002. All rights reserved.
+
+LANUSB.def
+Stop.
+Building generated files in c:\wince420\public\common\oak\drivers\admtek\lannds ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+Stop.
+BUILD: Examining c:\wince420\public\common\oak\drivers\admtek directory tree for files to compile. (2nd Pass)
+Compiling c:\wince420\public\common\oak\drivers\admtek\lannds directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 NOPASS0=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+clarm -nologo   /Gy -Foobj\ARMV4I\retail\lannds.obj -W3 -c -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -Oxs -GF -Zi -FdC:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -WX -QRarch4T -QRinterwork-return c:\wince420\public\common\oak\drivers\admtek\lannds\.\lannds.c
+lannds.c
+clarm -nologo   /Gy -Foobj\ARMV4I\retail\um.obj -W3 -c -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -Oxs -GF -Zi -FdC:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -WX -QRarch4T -QRinterwork-return c:\wince420\public\common\oak\drivers\admtek\lannds\.\um.c
+um.c
+NDIS_INIT_FUNCTION Ignored
+NDIS_PAGEABLE_FUNCTION Ignored
+NDIS_PAGEABLE_FUNCTION Ignored
+NDIS_PAGEABLE_FUNCTION Ignored
+clarm -nologo   /Gy -Foobj\ARMV4I\retail\mm.obj -W3 -c -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -Oxs -GF -Zi -FdC:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -WX -QRarch4T -QRinterwork-return c:\wince420\public\common\oak\drivers\admtek\lannds\.\mm.c
+mm.c
+clarm -nologo   /Gy -Foobj\ARMV4I\retail\lm.obj -W3 -c -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -Oxs -GF -Zi -FdC:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -WX -QRarch4T -QRinterwork-return c:\wince420\public\common\oak\drivers\admtek\lannds\.\lm.c
+lm.c
+clarm -nologo   /Gy -Foobj\ARMV4I\retail\usbm.obj -W3 -c -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -Oxs -GF -Zi -FdC:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -WX -QRarch4T -QRinterwork-return c:\wince420\public\common\oak\drivers\admtek\lannds\.\usbm.c
+usbm.c
+	link -lib -nodefaultlib -ignore:4001 -out:C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANNDS.lib  -def:C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANNDS.def -machine:thumb @C:\DOCUME~1\tsait\LOCALS~1\Temp\nmF.tmp
+Microsoft (R) Library Manager Version 6.24.3064
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-subsystem:windowsce,4.20 
+obj\ARMV4I\retail\lannds.obj obj\ARMV4I\retail\um.obj obj\ARMV4I\retail\mm.obj obj\ARMV4I\retail\lm.obj obj\ARMV4I\retail\usbm.obj 
+   Creating library C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANNDS.lib and object C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANNDS.exp
+Stop.
+Compiling c:\wince420\public\common\oak\drivers\admtek\lanusb directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 NOPASS0=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+clarm -nologo   /Gy -Foobj\ARMV4I\retail\lanusb.obj -W3 -c -IARM\ -I. -IC:\WINCE420\public\common\ddk\inc -IC:\WINCE420\public\common\sdk\inc -IC:\WINCE420\public\common\oak\inc -IC:\WINCE420\sdk\CE\inc -I.\Resource\0409 -Oxs -GF -Zi -FdC:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANUSB.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=420 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_   -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -DTHUMBSUPPORT -WX -QRarch4T -QRinterwork-return c:\wince420\public\common\oak\drivers\admtek\lanusb\.\lanusb.c
+lanusb.c
+	link -lib -nodefaultlib -ignore:4001 -out:C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANUSB.lib  -def:C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANUSB.def -machine:thumb @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm12.tmp
+Microsoft (R) Library Manager Version 6.24.3064
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-subsystem:windowsce,4.20 
+obj\ARMV4I\retail\lanusb.obj 
+   Creating library C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANUSB.lib and object C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANUSB.exp
+Stop.
+Linking c:\wince420\public\common\oak\drivers\admtek\lanusb directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+	set LIB=C:\WINCE420\sdk\CE\lib
+	link /LARGEADDRESSAWARE -out:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANUSB.dll -dll -machine:thumb @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm13.tmp
+Microsoft (R) Incremental Linker Version 6.24.3064
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-nodefaultlib 
+-entry:DllEntry 
+-debug -debugtype:cv -incremental:no /opt:ref -pdb:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANUSB.pdb 
+-map:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANUSB.map 
+-savebaserelocations:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANUSB.rel 
+-MERGE:.rdata=.text -merge:.astart=.text -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108 /STACK:65536,4096 
+-subsystem:windowsce,4.20 
+/base:0x10000000 
+obj\ARMV4I\retail\lanusb.obj 
+C:\WINCE420\public\common\oak\lib\ARMV4I\retail\LANUSB.lib C:\WINCE420\PUBLIC\MSC_IMG\WINCE420\BSP_SIVED_ST_200\cesysgen\oak\lib\ARMV4I\retail\ceddk.lib C:\WINCE420\PUBLIC\MSC_IMG\WINCE420\BSP_SIVED_ST_200\cesysgen\sdk\lib\ARMV4I\retail\ndis.lib C:\WINCE420\PUBLIC\MSC_IMG\WINCE420\BSP_SIVED_ST_200\cesysgen\sdk\lib\ARMV4I\retail\coredll.lib C:\WINCE420\public\common\sdk\lib\ARMV4I\retail\corelibc.lib 
+C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANUSB.exp 
+Stop.
+Linking c:\wince420\public\common\oak\drivers\admtek\lannds directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+	set LIB=C:\WINCE420\sdk\CE\lib
+	link /LARGEADDRESSAWARE -out:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.dll -dll -machine:thumb @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm15.tmp
+Microsoft (R) Incremental Linker Version 6.24.3064
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-nodefaultlib 
+-entry:DllEntry 
+-debug -debugtype:cv -incremental:no /opt:ref -pdb:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.pdb 
+-map:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.map 
+-savebaserelocations:C:\WINCE420\public\COMMON\oak\target\ARMV4I\retail\LANNDS.rel 
+-MERGE:.rdata=.text -merge:.astart=.text -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108 /STACK:65536,4096 
+-subsystem:windowsce,4.20 
+/base:0x10000000 
+obj\ARMV4I\retail\lannds.obj obj\ARMV4I\retail\um.obj obj\ARMV4I\retail\mm.obj obj\ARMV4I\retail\lm.obj obj\ARMV4I\retail\usbm.obj 
+C:\WINCE420\public\common\oak\lib\ARMV4I\retail\LANNDS.lib C:\WINCE420\public\common\sdk\lib\ARMV4I\retail\ntcompat.lib C:\WINCE420\PUBLIC\MSC_IMG\WINCE420\BSP_SIVED_ST_200\cesysgen\oak\lib\ARMV4I\retail\ceddk.lib C:\WINCE420\PUBLIC\MSC_IMG\WINCE420\BSP_SIVED_ST_200\cesysgen\sdk\lib\ARMV4I\retail\ndis.lib C:\WINCE420\PUBLIC\MSC_IMG\WINCE420\BSP_SIVED_ST_200\cesysgen\sdk\lib\ARMV4I\retail\coredll.lib C:\WINCE420\public\common\sdk\lib\ARMV4I\retail\corelibc.lib 
+C:\WINCE420\public\COMMON\oak\lib\ARMV4I\retail\LANNDS.exp 
+Stop.
+BUILD: Done
+

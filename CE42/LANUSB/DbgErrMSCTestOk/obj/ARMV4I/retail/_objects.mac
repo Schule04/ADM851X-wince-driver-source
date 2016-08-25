@@ -1,0 +1,5 @@
+ARM_OBJECTS= \
+    obj\ARMV4I\retail\lanusb.obj
+
+PASS0_ARM_OBJECTS=
+

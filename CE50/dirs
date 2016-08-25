@@ -1,0 +1,8 @@
+!if 0
+Copyright (c) Infineon Technology AG.
+!endif
+
+DIRS = \
+	lannds \
+	lanusb
+

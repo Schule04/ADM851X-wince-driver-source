@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBRARY         8511USB
+
+EXPORTS         USBInstallDriver
+                USBUnInstallDriver
+                USBDeviceAttach
+                USBDeviceNotifications
+                UsbDataExchange
+                NDS_Close
+	        NDS_Deinit
+	        NDS_Init
+	        NDS_IOControl
+	        NDS_Open        
+	        NDS_PowerUp
+	        NDS_PowerDown
+	        NDS_Read
+	        NDS_Seek
+	        NDS_Write
+	       

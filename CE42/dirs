@@ -1,0 +1,8 @@
+!if 0
+Copyright (c) MSC Vertriebs GmbH
+!endif
+
+DIRS_CE = \
+	lannds \
+	lanusb
+

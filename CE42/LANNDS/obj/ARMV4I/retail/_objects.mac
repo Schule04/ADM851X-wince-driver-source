@@ -1,0 +1,9 @@
+ARM_OBJECTS= \
+    obj\ARMV4I\retail\lannds.obj \
+    obj\ARMV4I\retail\um.obj \
+    obj\ARMV4I\retail\mm.obj \
+    obj\ARMV4I\retail\lm.obj \
+    obj\ARMV4I\retail\usbm.obj
+
+PASS0_ARM_OBJECTS=
+

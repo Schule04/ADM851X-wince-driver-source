@@ -1,0 +1,9 @@
+OBJECTS= \
+    obj\x86\retail\Lannds.obj \
+    obj\x86\retail\UM.obj \
+    obj\x86\retail\MM.obj \
+    obj\x86\retail\Lm.obj \
+    obj\x86\retail\USBM.obj
+
+PASS0_OBJECTS=
+

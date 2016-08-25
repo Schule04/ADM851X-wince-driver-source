@@ -1,0 +1,21 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Filter=*.*
+Project Directory=
+Use Relative Directory=0
+Relative to Project File=0
+Project Wordfile=
+Project Tagfile=
+Create Tagfile=0
+Include Sub Directories=0
+[Group]
+0=
+[Files]
+0=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\
+1=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\Lannds.c
+2=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\Lm.c
+3=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\MM.C
+4=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\UM.C
+5=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\USBM.C
+6=C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\Lanusb.c

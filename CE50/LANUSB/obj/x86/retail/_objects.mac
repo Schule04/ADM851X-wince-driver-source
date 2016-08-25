@@ -1,0 +1,5 @@
+OBJECTS= \
+    obj\x86\retail\Lanusb.obj
+
+PASS0_OBJECTS=
+

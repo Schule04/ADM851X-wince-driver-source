@@ -1,0 +1,132 @@
+A. The built-up procedures for ADM851X WindowsCE 5.0 driver "LANUSB.DLL" & "LANNDS.DLL":
+
+    1. Select "New Platform" in "File" menu under WINCE50 platform builder to create 
+       the "CEPCWEB" platform. The "CEPCWEB" means the CEPC is the target board and 
+       he WEB application is selected as the illustrated Windows CE product application.
+       Please also refer to the related documents on WINCE50 platform builder about how
+       to create the new platform and generate the run-time image based this platform.
+       (CEPC means the PC is run on Windows CE and usually the Pentium-II PC is more
+       suitable to be as CEPC.    
+   
+    2. Add the driver name to 
+
+       "\WINCE500\PUBLIC\COMMON\OAK\FILES\COMMON.BIB" 
+
+       These lines added at the end of common.bib:
+
+       lanusb.dll     $(_FLATRELEASEDIR)\lanusb.dll              NK  SH
+       lannds.dll     $(_FLATRELEASEDIR)\lannds.dll              NK  SH
+
+
+    3. Add the Registry to 
+
+       "\WINCE500\PUBLIC\COMMON\OAK\FILES\COMMON.REG" 
+    
+       These lines added at the end of platform.reg:   ;;; common.reg:
+
+        ; -------------------------------------------------------------------------------
+        ; +Special Entries for USB LAN Adapter ADM851X
+        ; -------------------------------------------------------------------------------
+        ; 1958_34069 = 07A6_8515 (ADM8515's Vendor & Device IDs)
+        ; 1958_34067 = 07A6_8513 (ADM8511's Vendor & Device IDs)
+        ; 1958_34065 = 07A6_8511 (ADM8511's Vendor & Device IDs)
+
+        [HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\1958_34069\Default\Default\LANUSB]
+            "DLL"="LANUSB.DLL"
+            "Prefix"="NDS"
+
+        [HKEY_LOCAL_MACHINE\Drivers\USB\ClientDrivers\LANUSB]
+            "DLL"="LANUSB.DLL"
+            "Prefix"="NDS"
+
+        [HKEY_LOCAL_MACHINE\Comm\LANNDS]
+            ; You can or needn't replace this string "DisplayName" by your own device name.
+            ; Usually, the "DisplayName" at "...\Comm\LANDNS" and "...\Comm\LANDNS1" should
+            ; be identical.
+            "DisplayName"="Infineon 851X Series USB-to-LAN Adapter"
+            "Group"="NDIS"
+            "ImagePath"="LANNDS.DLL"
+
+        [HKEY_LOCAL_MACHINE\Comm\LANNDS\Linkage]
+            "Route"=multi_sz:"LANNDS1"
+
+        [HKEY_LOCAL_MACHINE\Comm\LANNDS1]
+            ; You can replace this string "DisplayName" by your own device name.
+            "DisplayName"="Infineon 851X Series USB-to-LAN Adapter Driver"
+            "Group"="NDIS"
+            "ImagePath"="LANNDS.DLL"
+
+        [HKEY_LOCAL_MACHINE\Comm\LANNDS1\Parms]
+            "BusNumber"=dword:0
+            "BusType"=dword:0
+            "MediaType"=dword:0 ; 0:AutoSense, 1:10BaseT, 2:10BaseT Full_Duplex, 3:100BaseTX, 4:100BaseTX Full_Duplex
+            "MediaSel"=dword:1 ; 0:AutoSense, 1:Ethernet, 2:HomeLAN, 3:MAC-MII
+
+        [HKEY_LOCAL_MACHINE\Comm\Tcpip\Linkage]
+            "Bind"=multi_sz:"LANNDS1"
+
+        [HKEY_LOCAL_MACHINE\Comm\LANNDS1\Parms\Tcpip]
+            "EnableDHCP"=dword:0
+            "AutoCfg"=dword:0
+            "DefaultGateway"=multi_sz:""
+            "UseZeroBroadcast"=dword:0
+            "IpAddress"=multi_sz:"192.168.1.20"
+            "Subnetmask"=multi_sz: "255.255.255.0"
+            "DhcpMaxRetry"=dword:FFFFFFFF
+            "DhcpRetryDialogue"=dword:FFFFFFFF
+
+        [HKEY_LOCAL_MACHINE\Comm\Tcpip\Parms]
+            "AutoCfg"=dword:0
+
+        ; -------------------------------------------------------------------------------
+        ; -Special Entries for USB LAN Adapter ADM851X
+        ; -------------------------------------------------------------------------------
+
+
+    4. Select "Build and Sysgen" in "Build OS" menu under WINCE50 platform builder to 
+       build up the complete system image for CEPC target platform. After the built-up 
+       processes have completed, the screen will show the "LANUSB.DLL" missing message
+       as following:
+   
+        "
+        Error: Could not find file 'C:\WINCE500\PBWorkspaces\CEPCWEB\RelDir\CEPC_x86_Release\lanusb.dll' on disk
+        lanusb.dll C:\WINCE500\PBWorkspaces\CEPCWEB\RelDir\CEPC_x86_Release\lanusb.dll NK SH 
+        Error: failed setting line
+        makeimg: FATAL ERROR: Command returned non-zero exit code 1 (dec).
+        makeimg: FATAL ERROR: Command returned non-zero exit code 1 (dec).
+        BLDDEMO: CEPCWEB build complete.
+
+        CEPCWEB - 4 error(s), 8 warning(s)"
+   
+        Please don't worry and go to the step-5 to do the drivers copy.
+
+    5. Copy the drivers "LANUSB.DLL & LANNDS.DLL" to
+       "\WINCE500\PBWorkspaces\[Project_Name]\RelDir\[Platform]Release" 
+
+    6. Go back to WINCE50 platform builder and select "Make Run-Time Image" in "Build OS" to
+       build the run-time image for CEPC target board.
+
+    7. Select "Attach Device" in "Target" menu under WINCE50 platform builder to download the
+       run-time image into the CEPC target board. If the download has some problem, please
+       select "Connectivity Options" in the same "Target" menu to check if the connection
+       setting is configured well. 
+      
+
+B. The network configuration for the WCETK test under CEPC(Windows CE run on the desktop PC):
+
+    1. Set VMini (RTL8139B/C/D) IP as 192.168.1.100
+   
+    2. Set LANNDS1 (ADM8511/ADM8513/ADM8515) IP as 192.168.2.20
+   
+    3. Set PC site IP as 192.168.1.10 & 192.168.2.10
+   
+    4. Move to "tools" item at WINCE50 platform builder and select "Windows CE Test Kit" sub-item in
+       this "tools" item.
+      
+    5. When the diaglog of "Windows CE Test Kit" is shown, please select "Start client" in "Connection"
+       item to build up the communication between PC & Windows CEPC (the target PC run Windows CE 5.0).
+      
+    6. When the connection is O.K., please select "Pocket PC Test Kit" as the test suite for WCETK test.
+   
+    7. Finally, please select "One-Card Network Card Miniport Driver Test" in "Pocket PC Test Kit" and
+       then click right mouse key to select "Quick Start" to start the WCETK test for NDIS network driver.

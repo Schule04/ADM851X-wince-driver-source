@@ -1,0 +1,15 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\wince420\public\common\oak\drivers\admtek\lannds directory for files to compile.
+Building generated files in c:\wince420\public\common\oak\drivers\admtek\lannds ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 PASS0ONLY=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+Stop.
+BUILD: Examining c:\wince420\public\common\oak\drivers\admtek\lannds directory for files to compile. (2nd Pass)
+Linking c:\wince420\public\common\oak\drivers\admtek\lannds directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= MAKEDLL=1'
+makefile.def: BUILDROOT is C:\WINCE420\PUBLIC\COMMON
+makefile.def: including C:\WINCE420\PUBLIC\COMMON\sources.cmn
+Stop.
+BUILD: Done
+

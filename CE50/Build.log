@@ -1,0 +1,177 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000000:PROGC ] Checking for \WINCE500\sdk\bin\i386\srccheck.exe.
+BUILD: [00:0000000001:PROGC ] SrcCheck exit code: 0 (dec).
+BUILD: [00:0000000002:PROGC ] Compile and Link for x86.
+BUILD: [00:0000000003:PROGC ] Loading C:\WINCE500\PUBLIC\COMMON\Build.dat.
+BUILD: [00:0000000004:PROGC ] Done.
+BUILD: [00:0000000005:PROGC ] Computing include file dependencies:
+BUILD: [00:0000000006:PROGC ] Checking for SDK include directory: C:\WINCE500\sdk\ce\inc.
+BUILD: [00:0000000007:PROGC ] Scan \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\
+BUILD: [00:0000000008:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\Lannds.c because target: obj\x86\retail\Lannds.obj is out of date.
+BUILD: [00:0000000009:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\UM.C because target: obj\x86\retail\UM.obj is out of date.
+BUILD: [00:0000000010:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\MM.C because target: obj\x86\retail\MM.obj is out of date.
+BUILD: [00:0000000011:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\Lm.c because target: obj\x86\retail\Lm.obj is out of date.
+BUILD: [00:0000000012:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\USBM.C because target: obj\x86\retail\USBM.obj is out of date.
+BUILD: [00:0000000013:PROGC ] Scan \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\
+BUILD: [00:0000000014:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\Lanusb.c because target: obj\x86\retail\Lanusb.obj is out of date.
+BUILD: [00:0000000015:PROGC ] Saving C:\WINCE500\PUBLIC\COMMON\Build.dat.
+BUILD: [00:0000000016:INFO  ] Done.
+BUILD: [00:0000000017:PROGC ] Total of 0 pass zero files to compile in 2 directories.
+BUILD: [00:0000000018:PROGC ] Building generated files in \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\.
+BUILD: [00:0000000019:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  NOLINK=1 PASS0ONLY=1'
+BUILD: [01:0000000020:INFO  ] makefile.def: BUILDROOT is C:\WINCE500\PUBLIC\COMMON
+BUILD: [01:0000000021:INFO  ] makefile.def: Including C:\WINCE500\PUBLIC\COMMON\sources.cmn
+BUILD: [01:0000000022:INFO  ] Directory: C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS
+BUILD: [01:0000000023:INFO  ] TARGETNAME: LANNDS
+BUILD: [01:0000000024:INFO  ] makefile.def: Including C:\WINCE500\public\common\oak\misc\sources.ReleaseType_OAK
+BUILD: [01:0000000025:INFO  ] Stop.
+BUILD: [00:0000000026:PROGC ] Building generated files in \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\.
+BUILD: [00:0000000027:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  NOLINK=1 PASS0ONLY=1'
+BUILD: [01:0000000028:INFO  ] makefile.def: BUILDROOT is C:\WINCE500\PUBLIC\COMMON
+BUILD: [01:0000000029:INFO  ] makefile.def: Including C:\WINCE500\PUBLIC\COMMON\sources.cmn
+BUILD: [01:0000000030:INFO  ] Directory: C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB
+BUILD: [01:0000000031:INFO  ] TARGETNAME: LANUSB
+BUILD: [01:0000000032:INFO  ] makefile.def: Including C:\WINCE500\public\common\oak\misc\sources.ReleaseType_OAK
+BUILD: [01:0000000033:INFO  ] Stop.
+BUILD: [00:0000000034:PROGC ] Scan \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\
+BUILD: [00:0000000035:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\Lannds.c because target: obj\x86\retail\Lannds.obj is missing.
+BUILD: [00:0000000036:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\UM.C because target: obj\x86\retail\UM.obj is missing.
+BUILD: [00:0000000037:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\MM.C because target: obj\x86\retail\MM.obj is missing.
+BUILD: [00:0000000038:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\Lm.c because target: obj\x86\retail\Lm.obj is missing.
+BUILD: [00:0000000039:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\USBM.C because target: obj\x86\retail\USBM.obj is missing.
+BUILD: [00:0000000040:PROGC ] Scan \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\
+BUILD: [00:0000000041:INFO  ] Will Compile \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\Lanusb.c because target: obj\x86\retail\Lanusb.obj is missing.
+BUILD: [00:0000000042:PROGC ] Saving C:\WINCE500\PUBLIC\COMMON\Build.dat.
+BUILD: [00:0000000043:INFO  ] Done.
+BUILD: [00:0000000044:PROGC ] Compiling \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\ directory.
+BUILD: [00:0000000045:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000046:INFO  ] makefile.def: BUILDROOT is C:\WINCE500\PUBLIC\COMMON
+BUILD: [01:0000000047:INFO  ] makefile.def: Including C:\WINCE500\PUBLIC\COMMON\sources.cmn
+BUILD: [01:0000000048:INFO  ] Directory: C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS
+BUILD: [01:0000000049:INFO  ] TARGETNAME: LANNDS
+BUILD: [01:0000000050:INFO  ] makefile.def: Including C:\WINCE500\public\common\oak\misc\sources.ReleaseType_OAK
+BUILD: [01:0000000051:PROGC ] Compiling .\Lannds.c
+BUILD: [01:0000000052:INFO  ] cl -nologo   /Gy -Foobj\x86\retail\Lannds.obj -c -Ix86\ -I. -IC:\WINCE500\public\common\oak\inc -IC:\WINCE500\public\common\sdk\inc -IC:\WINCE500\public\common\ddk\inc -IC:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdC:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -Dx86 -D_X86_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -WX /QIfdiv- -W3       C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\.\Lannds.c
+BUILD: [01:0000000053:INFO  ] Lannds.c
+BUILD: [01:0000000054:PROGC ] Compiling .\UM.c
+BUILD: [01:0000000055:INFO  ] cl -nologo   /Gy -Foobj\x86\retail\UM.obj -c -Ix86\ -I. -IC:\WINCE500\public\common\oak\inc -IC:\WINCE500\public\common\sdk\inc -IC:\WINCE500\public\common\ddk\inc -IC:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdC:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -Dx86 -D_X86_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -WX /QIfdiv- -W3       C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\.\UM.c
+BUILD: [01:0000000056:INFO  ] UM.c
+BUILD: [01:0000000057:INFO  ] NDIS_INIT_FUNCTION Ignored
+BUILD: [01:0000000058:INFO  ] NDIS_PAGEABLE_FUNCTION Ignored
+BUILD: [01:0000000059:INFO  ] NDIS_PAGEABLE_FUNCTION Ignored
+BUILD: [01:0000000060:INFO  ] NDIS_PAGEABLE_FUNCTION Ignored
+BUILD: [01:0000000061:PROGC ] Compiling .\MM.c
+BUILD: [01:0000000062:INFO  ] cl -nologo   /Gy -Foobj\x86\retail\MM.obj -c -Ix86\ -I. -IC:\WINCE500\public\common\oak\inc -IC:\WINCE500\public\common\sdk\inc -IC:\WINCE500\public\common\ddk\inc -IC:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdC:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -Dx86 -D_X86_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -WX /QIfdiv- -W3       C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\.\MM.c
+BUILD: [01:0000000063:INFO  ] MM.c
+BUILD: [01:0000000064:PROGC ] Compiling .\Lm.c
+BUILD: [01:0000000065:INFO  ] cl -nologo   /Gy -Foobj\x86\retail\Lm.obj -c -Ix86\ -I. -IC:\WINCE500\public\common\oak\inc -IC:\WINCE500\public\common\sdk\inc -IC:\WINCE500\public\common\ddk\inc -IC:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdC:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -Dx86 -D_X86_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -WX /QIfdiv- -W3       C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\.\Lm.c
+BUILD: [01:0000000066:INFO  ] Lm.c
+BUILD: [01:0000000067:PROGC ] Compiling .\USBM.c
+BUILD: [01:0000000068:INFO  ] cl -nologo   /Gy -Foobj\x86\retail\USBM.obj -c -Ix86\ -I. -IC:\WINCE500\public\common\oak\inc -IC:\WINCE500\public\common\sdk\inc -IC:\WINCE500\public\common\ddk\inc -IC:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdC:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -Dx86 -D_X86_    -DNDISCE_MINIPORT  -DNDIS_MINIPORT_DRIVER -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -WX /QIfdiv- -W3       C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\.\USBM.c
+BUILD: [01:0000000069:INFO  ] USBM.c
+BUILD: [01:0000000070:PROGC ] Linking C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANNDS.lib
+BUILD: [01:0000000071:INFO  ] 	link -lib -out:C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANNDS.lib -def:C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANNDS.def -machine:x86 @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm6CBE.tmp
+BUILD: [01:0000000072:INFO  ] Microsoft (R) Library Manager Version 7.10.4017
+BUILD: [01:0000000073:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000074:INFO  ] 
+BUILD: [01:0000000075:INFO  ] -nodefaultlib 
+BUILD: [01:0000000076:INFO  ] -ignore:4001 
+BUILD: [01:0000000077:INFO  ] -subsystem:windowsce,5.00 
+BUILD: [01:0000000078:INFO  ] obj\x86\retail\Lannds.obj obj\x86\retail\UM.obj obj\x86\retail\MM.obj obj\x86\retail\Lm.obj obj\x86\retail\USBM.obj 
+BUILD: [01:0000000079:INFO  ]    Creating library C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANNDS.lib and object C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANNDS.exp
+BUILD: [01:0000000080:INFO  ] Stop.
+BUILD: [00:0000000081:PROGC ] Compiling \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\ directory.
+BUILD: [00:0000000082:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000083:INFO  ] makefile.def: BUILDROOT is C:\WINCE500\PUBLIC\COMMON
+BUILD: [01:0000000084:INFO  ] makefile.def: Including C:\WINCE500\PUBLIC\COMMON\sources.cmn
+BUILD: [01:0000000085:INFO  ] Directory: C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB
+BUILD: [01:0000000086:INFO  ] TARGETNAME: LANUSB
+BUILD: [01:0000000087:INFO  ] makefile.def: Including C:\WINCE500\public\common\oak\misc\sources.ReleaseType_OAK
+BUILD: [01:0000000088:PROGC ] Compiling .\Lanusb.c
+BUILD: [01:0000000089:INFO  ] cl -nologo   /Gy -Foobj\x86\retail\Lanusb.obj -c -Ix86\ -I. -IC:\WINCE500\public\common\oak\inc -IC:\WINCE500\public\common\sdk\inc -IC:\WINCE500\public\common\ddk\inc -IC:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdC:\WINCE500\public\COMMON\oak\target\x86\retail\LANUSB.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -Dx86 -D_X86_   -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -WX /QIfdiv- -W3       C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\.\Lanusb.c
+BUILD: [01:0000000090:INFO  ] Lanusb.c
+BUILD: [01:0000000091:PROGC ] Linking C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANUSB.lib
+BUILD: [01:0000000092:INFO  ] 	link -lib -out:C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANUSB.lib -def:C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANUSB.def -machine:x86 @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm6CC1.tmp
+BUILD: [01:0000000093:INFO  ] Microsoft (R) Library Manager Version 7.10.4017
+BUILD: [01:0000000094:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000095:INFO  ] 
+BUILD: [01:0000000096:INFO  ] -nodefaultlib 
+BUILD: [01:0000000097:INFO  ] -ignore:4001 
+BUILD: [01:0000000098:INFO  ] -subsystem:windowsce,5.00 
+BUILD: [01:0000000099:INFO  ] obj\x86\retail\Lanusb.obj 
+BUILD: [01:0000000100:INFO  ]    Creating library C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANUSB.lib and object C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANUSB.exp
+BUILD: [01:0000000101:INFO  ] Stop.
+BUILD: [00:0000000102:INFO  ] Relinking \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\ because target lib: C:\WINCE500\public\common\oak\lib\x86\retail\LANNDS.lib is more recent.
+BUILD: [00:0000000103:INFO  ] Relinking \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\ because target lib: C:\WINCE500\public\common\oak\lib\x86\retail\LANUSB.lib is more recent.
+BUILD: [00:0000000104:PROGC ] Linking \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS\ directory.
+BUILD: [00:0000000105:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  LINKONLY=1 NOPASS0=1 MAKEDLL=1'
+BUILD: [01:0000000106:INFO  ] makefile.def: BUILDROOT is C:\WINCE500\PUBLIC\COMMON
+BUILD: [01:0000000107:INFO  ] makefile.def: Including C:\WINCE500\PUBLIC\COMMON\sources.cmn
+BUILD: [01:0000000108:INFO  ] Directory: C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANNDS
+BUILD: [01:0000000109:INFO  ] TARGETNAME: LANNDS
+BUILD: [01:0000000110:INFO  ] makefile.def: Including C:\WINCE500\public\common\oak\misc\sources.ReleaseType_OAK
+BUILD: [01:0000000111:INFO  ] 	set LIB=C:\WINCE500\sdk\CE\lib
+BUILD: [01:0000000112:PROGC ] Linking C:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.dll
+BUILD: [01:0000000113:INFO  ] 	link /LARGEADDRESSAWARE -out:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.dll -dll -machine:x86 @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm6CC2.tmp
+BUILD: [01:0000000114:INFO  ] Microsoft (R) Incremental Linker Version 7.10.4017
+BUILD: [01:0000000115:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000116:INFO  ] 
+BUILD: [01:0000000117:INFO  ] -nodefaultlib 
+BUILD: [01:0000000118:INFO  ] -entry:DllEntry 
+BUILD: [01:0000000119:INFO  ] -pdb:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.pdb 
+BUILD: [01:0000000120:INFO  ] /opt:ref 
+BUILD: [01:0000000121:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000122:INFO  ] -map:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.map 
+BUILD: [01:0000000123:INFO  ] -savebaserelocations:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANNDS.rel 
+BUILD: [01:0000000124:INFO  ] -MERGE:.rdata=.text -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 
+BUILD: [01:0000000125:INFO  ] -subsystem:windowsce,5.00 
+BUILD: [01:0000000126:INFO  ] /base:0x10000000 
+BUILD: [01:0000000127:INFO  ] obj\x86\retail\Lannds.obj obj\x86\retail\UM.obj obj\x86\retail\MM.obj obj\x86\retail\Lm.obj obj\x86\retail\USBM.obj 
+BUILD: [01:0000000128:INFO  ] C:\WINCE500\public\common\oak\lib\x86\retail\LANNDS.lib C:\WINCE500\public\common\sdk\lib\x86\retail\ntcompat.lib C:\WINCE500\PBWorkspaces\CEPCWEB\WINCE500\CEPC_x86\cesysgen\oak\lib\x86\retail\ceddk.lib C:\WINCE500\PBWorkspaces\CEPCWEB\WINCE500\CEPC_x86\cesysgen\sdk\lib\x86\retail\ndis.lib C:\WINCE500\PBWorkspaces\CEPCWEB\WINCE500\CEPC_x86\cesysgen\sdk\lib\x86\retail\coredll.lib C:\WINCE500\public\common\sdk\lib\x86\retail\corelibc.lib 
+BUILD: [01:0000000129:INFO  ] C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANNDS.exp 
+BUILD: [01:0000000130:INFO  ] Stop.
+BUILD: [00:0000000131:PROGC ] Linking \WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB\ directory.
+BUILD: [00:0000000132:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  LINKONLY=1 NOPASS0=1 MAKEDLL=1'
+BUILD: [01:0000000133:INFO  ] makefile.def: BUILDROOT is C:\WINCE500\PUBLIC\COMMON
+BUILD: [01:0000000134:INFO  ] makefile.def: Including C:\WINCE500\PUBLIC\COMMON\sources.cmn
+BUILD: [01:0000000135:INFO  ] Directory: C:\WINCE500\PUBLIC\COMMON\OAK\DRIVERS\ADMtek\LANUSB
+BUILD: [01:0000000136:INFO  ] TARGETNAME: LANUSB
+BUILD: [01:0000000137:INFO  ] makefile.def: Including C:\WINCE500\public\common\oak\misc\sources.ReleaseType_OAK
+BUILD: [01:0000000138:INFO  ] 	set LIB=C:\WINCE500\sdk\CE\lib
+BUILD: [01:0000000139:PROGC ] Linking C:\WINCE500\public\COMMON\oak\target\x86\retail\LANUSB.dll
+BUILD: [01:0000000140:INFO  ] 	link /LARGEADDRESSAWARE -out:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANUSB.dll -dll -machine:x86 @C:\DOCUME~1\tsait\LOCALS~1\Temp\nm6CC4.tmp
+BUILD: [01:0000000141:INFO  ] Microsoft (R) Incremental Linker Version 7.10.4017
+BUILD: [01:0000000142:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000143:INFO  ] 
+BUILD: [01:0000000144:INFO  ] -nodefaultlib 
+BUILD: [01:0000000145:INFO  ] -entry:DllEntry 
+BUILD: [01:0000000146:INFO  ] -pdb:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANUSB.pdb 
+BUILD: [01:0000000147:INFO  ] /opt:ref 
+BUILD: [01:0000000148:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000149:INFO  ] -map:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANUSB.map 
+BUILD: [01:0000000150:INFO  ] -savebaserelocations:C:\WINCE500\public\COMMON\oak\target\x86\retail\LANUSB.rel 
+BUILD: [01:0000000151:INFO  ] -MERGE:.rdata=.text -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 
+BUILD: [01:0000000152:INFO  ] -subsystem:windowsce,5.00 
+BUILD: [01:0000000153:INFO  ] /base:0x10000000 
+BUILD: [01:0000000154:INFO  ] obj\x86\retail\Lanusb.obj 
+BUILD: [01:0000000155:INFO  ] C:\WINCE500\public\common\oak\lib\x86\retail\LANUSB.lib C:\WINCE500\PBWorkspaces\CEPCWEB\WINCE500\CEPC_x86\cesysgen\oak\lib\x86\retail\ceddk.lib C:\WINCE500\PBWorkspaces\CEPCWEB\WINCE500\CEPC_x86\cesysgen\sdk\lib\x86\retail\ndis.lib C:\WINCE500\PBWorkspaces\CEPCWEB\WINCE500\CEPC_x86\cesysgen\sdk\lib\x86\retail\coredll.lib C:\WINCE500\public\common\sdk\lib\x86\retail\corelibc.lib 
+BUILD: [01:0000000156:INFO  ] C:\WINCE500\public\COMMON\oak\lib\x86\retail\LANUSB.exp 
+BUILD: [01:0000000157:INFO  ] Stop.
+BUILD: [00:0000000158:PROGC ] Done.
+BUILD: [00:0000000159:PROGC ]                      Files      Warnings      Errors
+BUILD: [00:0000000160:PROGC ] Midl                     0             0           0
+BUILD: [00:0000000161:PROGC ] Resource                 0             0           0
+BUILD: [00:0000000162:PROGC ] Message                  0             0           0
+BUILD: [00:0000000163:PROGC ] Precomp Header           0             0           0
+BUILD: [00:0000000164:PROGC ] C/Cpp/Cxx                6             0           0
+BUILD: [00:0000000165:PROGC ] Assembler                0             0           0
+BUILD: [00:0000000166:PROGC ] Static Libraries         0             0           0
+BUILD: [00:0000000167:PROGC ] Dll's                    4             0           0
+BUILD: [00:0000000168:PROGC ] Exe's                    0             0           0
+BUILD: [00:0000000169:PROGC ] Resx                     0             0           0
+BUILD: [00:0000000170:PROGC ] Csharp Targets           0             0           0
+BUILD: [00:0000000171:PROGC ] Other                    0             0           0
+BUILD: [00:0000000172:PROGC ] 
+BUILD: [00:0000000173:PROGC ] Total                   10             0           0
+BUILD: [00:0000000174:PROGC ] 
+BUILD: [00:0000000175:PROGC ] 0 Warnings,  0 Errors
